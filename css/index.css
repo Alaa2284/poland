@@ -203,6 +203,21 @@ p {
     transition: all .8s
   }
 
+  .life .right-icon p{
+    position: relative;
+  }
+
+  .life .right-icon .fa {
+    position: absolute;
+    top: 5px
+  }
+
+  .life .right-icon .txt {
+    display: inline-block;
+    width: 85%;
+    margin-left: 24px;
+  }
+
 
  /* footer */
 .footer {
@@ -212,6 +227,15 @@ p {
   background: #03A6F0 !important;
   color: #fff !important;
 
+}
+
+.fa-facebbok span{
+  position: relative;
+  left: -7px !important
+}
+
+.icon a {
+  color: #fff !important
 }
 
 .footer .fadeInLeft{
