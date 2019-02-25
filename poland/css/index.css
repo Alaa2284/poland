@@ -235,8 +235,7 @@ p {
 .facebook {
   position: fixed;
   right: 5px;
-  top: 30%;
-  z-index: 100 !important
+  top: 30%
 }
 .facebook a{
   display: block;
