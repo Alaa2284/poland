@@ -45,15 +45,20 @@ p {
 .navbar {
   background: #03A6F0;
   border: none;
-  margin-bottom: 0px
+  height: 75px;
+}
+.navbar ul {
+  position: relative;
+  top: 14px;
+  left: -10px
 }
 .navbar a{ 
     color: #fff !important
  }
 
 .logo-container{
-    width: 54px;
-    height: 42px;
+    width: 76px;
+    height: 64px;
     overflow: hidden;
     position: relative;
     top: -12px;
@@ -137,14 +142,12 @@ p {
     position: relative;
   }
 
-  .header .grad h1 {
-    position: absolute;
-    top: 34%;
-    left: 35%;
-    color: #fff;
+ .header .grad h1 {
     font-size: 60px;
+    color: #fff;
+    text-align: center;
+    line-height: 6;
     font-weight: bold;
-
   }
 
   /* life */ 
@@ -229,9 +232,45 @@ p {
 
 }
 
-.fa-facebbok span{
-  position: relative;
-  left: -7px !important
+.facebook {
+  position: fixed;
+  right: 5px;
+  top: 30%
+}
+.facebook a{
+  display: block;
+  margin-bottom: 10px
+}
+.fa-facebook, .fa-instagram{
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px  !important;
+    font-size: 28px  !important;
+    transition: background .5s
+}
+.fa-facebook{
+  background: #337ab7;
+  color: #fff;
+   padding: 10px 14px;
+}
+.fa-instagram {
+  color: #fff;
+  background: #bc2a8d;
+}
+ 
+img {
+  width: 100%;
+  height: auto;
+}
+
+.facebook a:hover .fa-facebook {
+  background:#fff;
+  color: #337ab7
+}
+
+.facebook a:hover .fa-instagram {
+  background:#fff;
+  color: #bc2a8d
 }
 
 .icon a {
@@ -259,6 +298,14 @@ p {
 
 .footer .icon span {
     margin-left: 15px;
+}
+
+.copy-right{
+  background: #03A6F0;
+  color: #fff;
+  padding: 15px;
+  position: relative;
+  top: 8px
 }
 
 /* carousol */
@@ -353,7 +400,8 @@ p {
 .right-section {
    height: auto;
    padding-bottom: 20px;
-   margin-top: 50px;
+   margin-top: 45px;
+   padding-top: 10px
 }
 
 .right-section h2{
@@ -395,6 +443,10 @@ p {
    }
 
 @media screen and (max-width: 991px) {
+  ul li a{
+    font-size: 12px !important;
+    margin: 0 -8px
+  }
   .sidebar {
     width: 250px;
     position: absolute;
@@ -425,20 +477,28 @@ p {
   .sidebar .list .dropdown-menu a{
     color: #333 !important
   }
+
 }
 
+@media screen and (max-width: 991px) {
+  .logo-container{
+    width: 65px;
+    height: 53px
+  }
+  .navbar {
+    height: 61px
+  }
+  .navbar ul {
+    top: 5px
+  }
+  .right-section {
+    margin-top: 35px !important
+  }
+}
 @media screen and (max-width: 776px) {
  #myNavbar .dropdown-menu a{
     color: #fff !important
   }
-
-  .header .grad h1 {
-    position: absolute;
-    top: 42% !important;
-    left: 12% !important;
-    font-size: 41px !important;
-  }
-
   .carousel-caption{
     top: 18% !important
   }
@@ -446,5 +506,17 @@ p {
   .loader {
     left: 28%;
     top: 35%
+  }
+   .navbar {
+    height: auto;
+  }
+
+   .navbar ul {
+    top: 0px;
+    left: 0
+  }
+   .logo-container{
+    width: 54px;
+    height: 42px
   }
 }

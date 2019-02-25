@@ -36,7 +36,6 @@ $(document).ready(function() {
 	    }, 1000);
 	});
 
-
 	/*side bar */
 
 	$(".sidebar").hide()
@@ -46,4 +45,5 @@ $(document).ready(function() {
 	});
 
 })
+
 
