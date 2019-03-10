@@ -55,6 +55,19 @@ p {
 .navbar a{ 
     color: #fff !important
  }
+ .navbar ul li a::after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: #fff;
+    position: absolute;
+    top: 39px;
+    left: 15px;
+    transition: width .8s
+ }
+ .navbar ul li:hover a::after {  
+    width: 72%;
+ }
 
 .logo-container{
     width: 76px;
@@ -425,6 +438,11 @@ img {
     width: 100%;
     overflow: hidden;
   }
+
+   .right-section .contain:hover .background-img div {
+    transform: scale(1.1);
+    cursor: pointer;
+   }
 
   .right-section .contain .background-container .background-img div{
     height: 100%;
