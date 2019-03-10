@@ -135,7 +135,7 @@ p {
     width: 100%;
     background-size: 100% !important;
     background-repeat: no-repeat;
-    background-position: 0px 74px;
+    background-position: 0px 55px;
     /*background-size: cover !important*/
   }
 
@@ -150,7 +150,7 @@ p {
     font-size: 60px;
     color: #fff;
     text-align: center;
-    line-height: 6;
+    line-height: 7;
     font-weight: bold;
   }
 
@@ -480,8 +480,6 @@ img {
     font-size: 18px
    } 
 
-
-
   .sidebar .list .dropdown-menu{
     background: #fff !important;
     padding-bottom: 18px !important;
@@ -510,7 +508,11 @@ img {
   }
 
   .header .bg{
-    background-position: 0px 60px;
+    background-position: 0px 40px;
+  }
+
+  .header h1 {
+    font-size: 40px !important
   }
 
 }
@@ -542,7 +544,7 @@ img {
   }
 
   .header .bg{
-    background-position: 0px 50px;
+    background-position: 0px 30px;
   }
 
   .header {
